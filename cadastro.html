@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>  
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="BOOTSTRAP"
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 <i class="bi bi-bicycle"></i>Health Track  </h1>
+    <main class="container-fluid">
+        <div class="col" id="login-container">
+            <h2>Cadastre-se</h2>
+            <form id="register-form" action="perfil.html">
+                <div class="full-box">
+                    <label for="text">Nome completo</label>
+                    <input type="text" name="nome completo" id="nome completo" placeholder="Digite seu nome">
+                </div>    
+                <div class="half-box spacing">    
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="half-box">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                </div>    
+                <div class="half-box spacing">
+                    <label for="genero">Gênero</label>
+                    <input type="text" name="genero" id="genero" placeholder="Digite seu gênero">
+                </div>
+                <div class="half-box">
+                    <label for="data_de_nascimento">Data de nascimento</label>
+                    <input type="date" name="data_de_nascimento" id="data_de_nascimento" placeholder="Digite sua data de nascimento">
+                </div>
+                <div class="half-box spacing">
+                    <label for="number">Peso</label>
+                    <input type="number" name="peso" id="peso" placeholder="Digite seu peso em kg">
+                </div>
+                <div class="half-box">   
+                    <label for="number">Altura</label>
+                    <input type="number" name="altura" id="altura" placeholder="Digite sua altura em metros">
+                </div>
+                <div class="full-box">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+                </div>
+                <div class="full-box">
+                    <input type="submit" id="btn-submit" value="Registrar"> 
+                </div>
+            </form>
+        </div>
+        <p class="error-validation template"></p>
+    </main>
+    <script src="js/scripts.js"></script> 
+</body>
+</html>

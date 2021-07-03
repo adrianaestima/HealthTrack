@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="BOOTSTRAP"
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Exercício</title>
+</head>
+<body>
+    <h1 <i class="bi bi-bicycle"></i>HEALTH TRACK</h1>
+
+    <h3 class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"><a href="index.html">HOME</a></div>
+            <div class="col-md-2"><a href="perfil.html">Perfil</a></div>
+            <div class="col-md-2"><a href="exercicio.html">EXERCÍCIO</a></div>
+            <div class="col-md-2"><a href="alimentacao.html">ALIMENTAÇÃO</a></div>
+            <div class="col-md-2"><a href="saude.html">SAÚDE</a></div>
+            <div class="col-md-2"><a href="peso.html">PESO</a></div>
+        </div>
+    </h3>
+
+    <h5>Exercício</h5>
+
+    <div class="container">
+        <form class="row">
+            <div class="col">
+                <label for="date">Data</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+
+            <div class="col">
+                <label for="exercicio">Exercício</label>
+                <select name="exercicio" id="exercicio">
+                    <option value="selecione">Selecione</option>
+                    <option value="corrida">Corrida</option>
+                    <option value="caminhada">Caminhada</option>
+                    <option value="musculacao">Musculação</option>
+                    <option value="natacao">Natação</option>
+                    <option value="pilates">Pilates</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="capoeira">Capoeira</option>
+                    <option value="cross-fit">Cross Fit</option>
+                    <option value="outro">Outro</option>
+                </select> 
+            </div>     
+
+            <div class="col">
+                <label for="duracao">Duração</label>
+                <input type="number" class="form-control" id="duracao">
+            </div>
+
+            <div class="col">
+                <label for="sensação-esforço">Esforço</label>
+                <select name="exercicio" id="sensacao-esforco" >
+                    <option value="selecione">Selecione</option>
+                    <option value="fraco">Fraco</option>
+                    <option value="moderado">Moderado</option>
+                    <option value="forte">Forte</option>
+                    <option value="muito-forte">Muito Forte</option>
+                    <option value="exaustao">Exaustão</option>
+                </select>
+            </div>
+            
+            <div class="col">
+                <label for="calorias-gastas"> Calorias </label>
+                <input type="number" class="form-control" id="calorias-gastas">
+            </div>
+
+            <div class="col">
+                <label for="adicionar">Adicionar</label>
+                <button type="submit"><i class="bi bi-plus-circle-fill"></i></button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="container">
+
+        <form class="row">
+            
+            <div class="col-sm-2">
+                <label for="date">Data</label>
+                <input type="text" class="form-control" id="date" value="21/06/2021" disabled>
+            </div>
+
+            <div class="col-sm-2">
+                <label for="exercicio">Exercício</label>
+                <select name="exercicio" id="exercicio" disable>
+                    <option value="selecione">Selecione</option>
+                    <option value="corrida" selected>Corrida</option>
+                    <option value="caminhada">Caminhada</option>
+                    <option value="musculacao">Musculação</option>
+                    <option value="natacao">Natação</option>
+                    <option value="pilates">Pilates</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="capoeira">Capoeira</option>
+                    <option value="cross-fit">Cross Fit</option>
+                    <option value="outro">Outro</option>
+                </select> 
+            </div> 
+
+            <div class="col-sm-2">
+                <label for="duracao">Duração</label>
+                <input type="number" class="form-control" id="quantidade" value="60" disabled>
+            </div>
+
+            <div class="col-sm-2">
+                <label for="sensação-esforço">Esforço</label>
+                <select name="exercicio" id="sensacao-esforco" disabled>
+                    <option value="selecione">Selecione</option>
+                    <option value="fraco">Fraco</option>
+                    <option value="moderado">Moderado</option>
+                    <option value="forte" selected>Forte</option>
+                    <option value="muito-forte">Muito Forte</option>
+                    <option value="exaustao">Exaustão</option>
+                </select>
+            </div>
+
+            <div class="col-sm-2">
+                <label for="calorias-gastas">Calorias</label>
+                <input type="number" class="form-control" value="600" id="calorias-consumidas" disabled>
+            </div>
+
+            <div class="col-sm-2">
+                <label for="editar">Editar</label>
+                <button type="reset"><i class="bi bi-eraser-fill"></i></button>
+                <button type="button"><i class="bi bi-pencil-fill"></i></button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>

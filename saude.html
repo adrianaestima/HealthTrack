@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="BOOTSTRAP"
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Saúde</title>
+</head>
+<body>
+    <h1> <i class="bi bi-bicycle"></i >HEALTH TRACK</h1>
+
+        <h3 class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"><a href="index.html">HOME</a></div>
+                <div class="col-md-2"><a href="perfil.html">Perfil</a></div>
+                <div class="col-md-2"><a href="exercicio.html">EXERCÍCIO</a></div>
+                <div class="col-md-2"><a href="alimentacao.html">ALIMENTAÇÃO</a></div>
+                <div class="col-md-2"><a href="saude.html">SAÚDE</a></div>
+                <div class="col-md-2"><a href="peso.html">PESO</a></div>
+            </div>
+        </H3>
+    
+        <h5>Saúde</h5>
+    
+        <div class="container">
+            <form class="row">
+                <div class="col-sm-2">
+                    <label for="date">Data</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                     
+                <div class="col-sm-2">
+                    <label for="horario">Horário</label>
+                    <input type="time" class="form-control" id="horário">
+                </div>
+    
+                <div class="col-sm-2">
+                    <label for="frequencia-cardiaca">FC de Repouso</label>
+                    <input type="text" class="form-control" id="frequencia-cardiaca">
+                </div>
+    
+                <div class="col-sm-2">
+                    <label for="pressao-arterial">Pressão Arterial</label>
+                    <input type="text" class="form-control" id="pressao-arterial">
+                </div>
+
+                <div class="col-sm-2">
+                    <label for="medicamentos">Medicamentos</label>
+                    <input type="text" class="form-control" id="medicamentos">
+                </div>
+
+                <div class="col">
+                    <label for="adicionar">Adicionar</label>
+                    <button type="submit"><i class="bi bi-plus-circle-fill"></i></button>
+                </div>
+                
+            </form>
+
+            <form class="row">
+
+                <div class="col-sm-2">
+                    <label for="date">Data</label>
+                    <input type="text" class="form-control" id="date" value="21/06/2021" disabled>
+                </div>    
+             
+                <div class="col-sm-2">
+                    <label for="horario">Horário</label>
+                    <input type="time" class="form-control" id="horario" value="07:30" disabled>
+                </div>
+
+                <div class="col-sm-2">
+                    <label for="frequencia-cardiaca">FC de Repouso</label>
+                    <input type="text" class="form-control" id="frequencia-cardiaca" value="60" disabled>
+                </div>
+    
+                <div class="col-sm-2">
+                    <label for="pressao-arterial">Pressão Arterial</label>
+                    <input type="text" class="form-control" id="pressao-arterial" value="120x80" disabled>
+                </div>
+
+                <div class="col-sm-2">
+                    <label for="medicamentos">Medicamentos</label>
+                    <input type="text" class="form-control" id="medicamentos" value="Lozartana 1comp." disabled>
+                </div>
+
+                <div class="col-sm-2">
+                    <label for="editar">Editar</label>
+                    <button type="reset"><i class="bi bi-eraser-fill"></i></button>
+                    <button type="button"><i class="bi bi-pencil-fill"></i></button>
+                </div>
+                
+            </form>
+        </div>
+</body>
+</html>
